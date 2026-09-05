@@ -13,7 +13,7 @@
   gtk3,
   gtkmm3,
   libjack2,
-  libsigcxx,
+  libsigcxx_2_0,
   libxmlxx,
   mlt,
   pango,
@@ -81,7 +81,7 @@ let
       cairo
       glibmm
       mlt
-      libsigcxx
+      libsigcxx_2_0
       libxmlxx
       pango
       imagemagick
@@ -130,7 +130,7 @@ stdenv.mkDerivation {
     gtkmm3
     imagemagick
     libjack2
-    libsigcxx
+    libsigcxx_2_0
     libxmlxx
     mlt
     adwaita-icon-theme

@@ -11,7 +11,7 @@
   libsndfile,
   ladspa-header,
   liblo,
-  libsigcxx,
+  libsigcxx_2_0,
   lrdf,
   wafHook,
 }:
@@ -39,7 +39,7 @@ stdenv.mkDerivation {
     libsndfile
     ladspa-header
     liblo
-    libsigcxx
+    libsigcxx_2_0
     lrdf
   ];
 

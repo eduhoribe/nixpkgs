@@ -9,7 +9,7 @@
   libgcrypt,
   libpar2,
   libcap,
-  libsigcxx,
+  libsigcxx_2_0,
   libxml2,
   ncurses,
   openssl,
@@ -53,7 +53,7 @@ stdenv.mkDerivation (finalAttrs: {
     libgcrypt
     libpar2
     libcap
-    libsigcxx
+    libsigcxx_2_0
     libxml2
     ncurses
     openssl
